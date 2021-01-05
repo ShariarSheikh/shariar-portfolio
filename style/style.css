@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  width: 100%;
+  height:500px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p{color:dimgray}
+.top_section {
+    height: 100vh;
+  background-image: url("img/to-banner.png");
+  background-repeat: no-repeat;
+}
+.left_div {
+  width: 50%;
+  height: auto;
+  padding-left: 50px;
+  z-index: 100;
+}
+.top-banner-img{
+    width: 782px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.title_hightlite{
+    color:orange;
+    
+}.btn-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius:5px;
+    font-weight: 400;
+    color:white;
+}
+
+.left_div,
+img {
+  width: 74%;
+  object-fit: cover;
+}
+.right_div {
+  width: 50%;
+  height: auto;
+}
+
+
+.dream-btn-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius:5px;
+    font-weight: 400;
+    color:white;
+}
+.dream-bg-img{
+    position: absolute;
+    right: 0;
+    bottom: -110px;
+    width: 119px;
+}
+
+.experiences{
+    width:100%;
+    height: 700px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ex-title{
+    position: absolute;
+    left: 6px;
+    top: 114px;
+}
+.full-stack{
+    box-shadow: 2px 6px 31px 2px #868890;
+    width: 600px;
+    height: 383px;
+    border-radius: 4px;
+    margin-right: 100px;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-left:7px solid ;
+    border-image-slice:1;
+    margin-bottom: 150px;
+
+}
+.baby-web{
+    box-shadow: 2px 6px 31px 2px #868890;
+    width: 600px;
+    height: 383px;
+    border-radius: 4px;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-left:7px solid ;
+    border-image-slice:1;
+    margin-bottom: 150px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
